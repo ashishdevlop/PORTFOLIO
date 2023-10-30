@@ -71,3 +71,14 @@
   background: var(--orange);
   width: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .t-wrapper {
+    padding: 0;
+  }
+
+  .testmonial > img {
+    width: 70px;
+    height: 70px;
+  }
+}

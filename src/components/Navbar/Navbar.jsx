@@ -35,9 +35,9 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        {/* <Link spy={true} to="Services" smooth={true}> */}
-        <button className="button n-button">Contact </button>
-        {/* </Link> */}
+        <Link spy={true} to="Services" smooth={true}>
+          <button className="button n-button">Contact </button>
+        </Link>
       </div>
     </div>
   );
