@@ -13,6 +13,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import typewriter from "typewriter-effect";
 
 const Intro = () => {
   const transition = { duration: 10, type: "spring" };
